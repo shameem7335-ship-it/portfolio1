@@ -52,6 +52,9 @@ nav .menu a{
     font-weight: bold;
     cursor: pointer;
 }
+.center{
+  text-align: center;
+}
 .section-heading{
   max-width: 827px;
   text-align: center;
@@ -188,3 +191,56 @@ font-size: 30px;
     line-height: 28px;
     color: #757575;
   }
+  footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+  }
+  footer .fotter-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+  }
+  .fotter-container h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #181818;
+  }
+  .fotter-container .social{
+    max-width: 542px;
+  }
+  .fotter-container p{
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .fotter-container .icon a{
+    margin-right: 24px;
+  }
+  .fotter-container form input[type="text"]{
+    width: 461px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    color: #757575;
+  }
+  .fotter-container form input[type="email"]{
+    width: 461px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    color: #757575;
+  }
+  .fotter-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 24px;
+    color: #757575;
+  }
+  
